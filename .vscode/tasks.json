@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Watch: Lib (esbuild)",
+			"type": "npm",
+			"script": "dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"presentation": {
+				"group": "dev-group",
+				"panel": "dedicated",
+				"reveal": "never"
+			}
+		}
+	]
+}

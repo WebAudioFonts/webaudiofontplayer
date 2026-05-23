@@ -1,0 +1,63 @@
+{
+  "name": "webaudiofontplayer",
+  "version": "1.0.0",
+  "description": "WebAudioFont Player",
+  "keywords": [
+    "instrument",
+    "sound",
+    "webaudiofont",
+    "sf2",
+    "soundbank",
+    "player",
+    "midi",
+    "midiplayer",
+    "midi-player-js",
+    "audio",
+    "webaudio",
+    "webaudioapi",
+    "audioapi",
+    "json",
+    "api"
+  ],
+  "homepage": "https://github.com/WebAudioFonts/webaudiofontplayer#readme",
+  "bugs": {
+    "url": "https://github.com/WebAudioFonts/webaudiofontplayer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebAudioFonts/webaudiofontplayer.git"
+  },
+  "license": "MIT",
+  "author": "Maxime Larrivée-Roy",
+  "type": "module",
+  "main": "index.js",
+
+  "module": "./dist/index.js",
+  "unpkg": "./dist/webaudiofont-player.min.js",
+  "jsdelivr": "./dist/webaudiofont-player.min.js",
+  "files": [
+    "dist",
+    "src",
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "script": "./dist/webaudiofont-player.min.js"
+    }
+  },
+
+
+
+
+  "scripts": {
+    "build": "node scripts/watch.js --build",
+    "dev": "node scripts/watch.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
