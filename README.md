@@ -38,12 +38,8 @@ This produces one `.json` file per instrument, each exporting an object shaped l
       loopStart: 3000,
       loopEnd: 8000,
       sampleRate: 44100,
+      ahdsr: true
       file: "T2dnUwAC...", // base64-encoded audio
-      ahdsr: [
-        { duration: 0,   volume: 1 },
-        { duration: 0.5, volume: 1 },
-        { duration: 0.1, volume: 0 }
-      ]
     }
   ]
 }
